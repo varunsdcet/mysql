@@ -27,3 +27,7 @@ VALUES
   node index.js
 ALTER TABLE test
 ADD Email varchar(255);
+ssh root@ip
+password
+file zilla - side - dot par click  m home - projct upload
+then create sql
