@@ -1,0 +1,26 @@
+https://brew.sh/
+homebrew install hoga pehle aapke
+brew install mysql@5.7
+cd ~/
+touch .bash_profile
+open .bash_profile
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+then save
+mysql -uroot -p
+mysql_secure_installation
+mysql -u root -p
+show databases;
+CREATE DATABASE varun;
+use varun;
+SHOW table;
+$(brew --prefix mysql)/bin/mysqladmin -u root password NEWPASS;
+CREATE TABLE `test` (
+  `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `name` varchar(255) NOT NULL
+);
+INSERT INTO
+  test (name)
+VALUES
+  ('varun');
+  
+  SELECT * FROM test;
