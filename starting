@@ -25,3 +25,5 @@ VALUES
   
   SELECT * FROM test;
   node index.js
+ALTER TABLE test
+ADD Email varchar(255);
